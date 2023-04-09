@@ -87,7 +87,7 @@ if(errors.length > 0){
                         // save
                         newUser.save()
                         .then((user) => {
-                            req.flash('success_msg', 'YOu are now registered and can login');
+                            req.flash('success_msg', 'You are now registered successfully');
                             res.redirect('/users/login');
                         } )
                         .catch(err => console.log(err));
