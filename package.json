@@ -1,0 +1,31 @@
+{
+  "name": "node_registration",
+  "version": "1.0.0",
+  "description": "NODE REGISTRATION APP. FULL AUTHENTICATION WITH PASSPORT AND JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Joshbam-joshwilly/node_registration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshbam-joshwilly/node_registration/issues"
+  },
+  "homepage": "https://github.com/Joshbam-joshwilly/node_registration#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
