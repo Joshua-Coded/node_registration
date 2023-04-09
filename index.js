@@ -1,6 +1,5 @@
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
-// const path = require('path');
 const mongoose = require('mongoose');
 
 const app = express();
@@ -20,6 +19,9 @@ app.set('layout', './layouts/layout');
 app.set('view engine', 'ejs');
 
 
+
+// BODY PARSER
+app.use(express.urlencoded({ extended: false }));
 
 
 // ROUTES
